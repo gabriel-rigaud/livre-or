@@ -1,0 +1,165 @@
+body{
+    background: url("https://t3.ftcdn.net/jpg/05/24/43/88/360_F_524438877_PZFzwc5OWJ3MTWQVFfHKwu1DRVMaSgPx.jpg")no-repeat;
+    background-size: 90rem;
+    background-color: black;
+    font-family: Dialog;
+    border-style: hidden;
+    color: white;
+    font-size: 20px;
+}
+
+#profil{
+    background: url("https://t4.ftcdn.net/jpg/05/21/18/03/360_F_521180377_2iAVJqBQSo3cgKaVp8vMBR8asrC61DoU.jpg")no-repeat;
+    background-size: 90rem;
+    background-color: black;
+}
+
+#livreor{
+    background: url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=pexels-pixabay-36717.jpg&fm=jpg")no-repeat;
+    background-size: 90rem;
+    background-color: black;
+}
+
+#connexion{
+    background: url("https://t4.ftcdn.net/jpg/05/21/18/03/360_F_521180379_HKrxPuftYgfT7qMZDFJ93ee9clT6fBj7.jpg")no-repeat;
+    background-size: 90rem;
+    background-color: black;
+}
+
+#inscription{
+    background: url("https://c4.wallpaperflare.com/wallpaper/101/144/843/cosmic-4k-wallpaper-preview.jpg")no-repeat;
+    background-size: 90rem;
+    background-color: black;
+}
+
+#commentaire{
+    background: url("https://t4.ftcdn.net/jpg/05/20/89/79/360_F_520897991_C5QkwRrtgvqqU1aEmboA01003FdSEYoF.jpg")no-repeat;
+    background-size: 110rem;
+    background-color: black;
+}
+
+.titree{
+    text-align: center;
+    padding: 2rem;
+    background-color: black;
+}
+
+section#contact{
+    padding: 50px 0px;
+    font-size: 22px;
+}
+
+section#contact .container{
+    max-width: 80rem;
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    border-radius: 35px;
+    box-shadow: 0px 10px 50px -10px white;
+}
+section#contact .container .titre{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+section#contact .container .titre h1{
+    font-size:30px
+}
+
+section#contact .container form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 90rem;
+}
+
+section#contact .container form input{
+    width: 80%;
+    margin: 20px 0;
+    padding: 15px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid blue;
+}
+
+.com{
+    width: 60%;
+    resize: none;
+    height: 130px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.clique{
+    color: white;
+    background: #0069d9;
+    border-color: #0062cc;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.clique:hover{
+    color: lightskyblue;
+    transition: 2ms;
+}
+
+.topnav {
+    background: url("https://wallpapercave.com/uwp/uwp2198869.jpeg")no-repeat;
+    overflow: hidden;
+}
+.topnav i{
+    float: right;
+}
+.topnav a {
+    color: #f2f2f2;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+footer{
+    text-align: center;
+}
+
+.liens{
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
